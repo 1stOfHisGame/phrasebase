@@ -18,7 +18,7 @@
  
    eg. Sachin Tendulkar was born in Mumbai.
 
-   You can provide multiple sentences in the file but make sure each sentence is written on different line 
-   and ends with a period (.)
+   You can provide multiple sentences in the input file but be sure to write each sentence on a different line 
+   and end them with a period (.)
 - Run
   ``` hadoop jar PhraseBase.jar PhraseBase input.txt ```
