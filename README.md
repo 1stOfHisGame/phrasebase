@@ -16,8 +16,9 @@
   - verb phrase 
   - object
  
- eg. Sachin Tendulkar was born in Mumbai.
- 
- You can provide multiple sentences in the file but make sure each sentence is written on different line and ends with a period (.)
+   eg. Sachin Tendulkar was born in Mumbai.
+
+   You can provide multiple sentences in the file but make sure each sentence is written on different line 
+   and ends with a period (.)
 - Run
   ``` hadoop jar PhraseBase.jar PhraseBase input.txt ```
