@@ -540,7 +540,7 @@ public static void main(String[] args) throws Exception {
     String DBpediaOntology = "/DBOchain.txt"; // reads the dataset that has ontology hierarchy for every class od DBpedia ontology
     String phraseBaseKB = "/pb_w_unique_ranks"; // reads the Knowledge base constructed from wikipedia 
     
-    //directories for storing result and intermediate data, hadoop creates/overwrites these in HDFS if used for writing data into it
+    //directories for storing result and intermediate data, hadoop creates these directories in HDFS if not present
     String taggerResults = "/pb_tagger_results/"; // for storing the result of tagme on input sentence is stored here
     String intermediateDirectory = "/pb_output_intermediate_stage/"; // for storing intermediate results
     String resultForInput = "/pb_output_final/"; // for storing result for input sentence
