@@ -1,4 +1,4 @@
-# PhraseBase
+# Phrase Sense Disambiguation for NLP using PhraseBase
 
 # Requirements
 - Download datasets from https://www.kaggle.com/rushabhmishra/phrasebase
