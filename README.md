@@ -7,7 +7,7 @@
 
 # Steps
 - Clone the repository
-- run in terminal
+- Run in terminal
   ``` hadoop com.sun.tools.javac.Main PhraseBase.java ```
 - Run
   ``` jar cf PhraseBase.jar PhraseBase*.class ```
