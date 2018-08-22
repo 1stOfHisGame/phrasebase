@@ -11,6 +11,12 @@
   ``` hadoop com.sun.tools.javac.Main PhraseBase.java ```
 - Run
   ``` jar cf PhraseBase.jar PhraseBase*.class ```
-- Create input.txt and write any simple sentence with a subject - verb phrase - object eg. Sachin Tendulkar was born in Mumbai.
+- Create input.txt and write any simple sentence that has
+  - subject
+  - verb phrase 
+  - object
+  eg. Sachin Tendulkar was born in Mumbai.
+  
+  You can provide multiple sentences in the file but make sure each sentence is written on different line and ends with a period (.)
 - Run
   ``` hadoop jar PhraseBase.jar PhraseBase input.txt ```
