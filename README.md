@@ -1,4 +1,6 @@
 # Phrase Sense Disambiguation for NLP using PhraseBase
+A Hadoop MapReduce java implementation for disambiguating entities from simple English sentences using a phrasal knowledge base.
+
 
 # Requirements
 - Download datasets from https://www.kaggle.com/rushabhmishra/phrasebase
